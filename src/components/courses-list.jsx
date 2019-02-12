@@ -2,15 +2,20 @@ import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
 import * as contentful from 'contentful';
-
 import Course from './course';
+// import dotenv from 'dotenv';
 
-const SPACE_ID = '9877q39gbu1b';
-const ACCESS_TOKEN = '05df4471456351fa9c90c1b4dab6927e7e9d400b160614b27c9270b7f85f38ed';
+// const path = require('path');
+
+
+
+// const SPACE_ID = process.env.SPACE_ID;
+// console.log(SPACE_ID);
+// const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
 
 const client = contentful.createClient({
-  space: SPACE_ID,
-  accessToken: ACCESS_TOKEN,
+  space: '9877q39gbu1b',
+  accessToken: '05df4471456351fa9c90c1b4dab6927e7e9d400b160614b27c9270b7f85f38ed',
 });
 
 class CoursesList extends Component {
