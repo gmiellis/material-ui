@@ -1,7 +1,5 @@
 # getting to know material-ui
 
-This is a front-end React app that connects to a back-end api to display the weekly weather report.
-
 **Built Using:**
 
 - React.js
