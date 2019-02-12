@@ -17,4 +17,4 @@ From the directory enter:
 
 **Author**
 
-Daniel Cross Cathe
+Gaz Ellis
